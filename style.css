@@ -1,3 +1,6 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 #header{
     display: flex;
     align-items: center;
@@ -24,7 +27,7 @@
     font-weight: 600;
     color: black; 
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.3s ease; 
 }
 #navbar li a:hover{
     color: purple;
@@ -270,4 +273,61 @@
 }
 #banner3 .banner-box13{
     background-image: url("img/banner/b18.jpg");
+}
+#newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: rgb(10, 198, 208);
+    padding: 20px 0;
+    margin-top: 20px;
+}
+#newsletter .newstext{
+    color: white;
+    margin-left: 100px;
+}
+#newsletter p{
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+#newsletter p span{
+    color: orange;
+}
+#newsletter .form{
+    /* margin-right: 150px; */
+    /* padding: 10px 4px; */
+    display: flex;
+    /* width: 40%; */
+}
+#newsletter input{
+    /* height: 40px; */
+    padding: 0 3px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent; 
+    border-radius: 4px;
+    outline: none;
+}
+#newsletter button{
+    /* padding: 13px 7px; */
+    font-size: 13px;
+    border: 1px solid;
+    border-radius: 4px;
+    /* outline: none; */
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    display: inline;
+}
+#newsletter button:hover{
+    transition: 0.2s ease;
+    background-color: green;
+    color: aliceblue;
+    font-weight: 900;
 }

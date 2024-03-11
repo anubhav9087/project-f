@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../c++ .cpp"
+		},
+		{
+			"path": "../c++ learn"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "c++ .cpp"
+	}
+}
